@@ -201,10 +201,10 @@ func (game *Game) Display() {
 	game.board.Display()
 }
 
-func (game *Game) getPlayerMove() (int, int) {
+func (game *Game) GetPlayerMove() (int, int) {
 	reader := bufio.NewReader(os.Stdin)
 	for {
-		fmt.Printf("Player %s, enter row and column (e.g. '1 2'): ", game.currentPlayer.GetName())
+		fmt.Printf("Player '%s', enter row and column (e.g. '1 2'): ", game.currentPlayer.GetName())
 		input, _ := reader.ReadString('\n')
 		row, col, err := parseInput(input, game.board)
 
@@ -287,6 +287,29 @@ func parseInput(input string, board *Board) (int, int, error) {
 	return row - 1, col - 1, nil
 }
 
+func parseName(reader *bufio.Reader, defName string) string {
+	input, err := reader.ReadString('\n')
+	trimmed := strings.TrimSpace(input)
+
+	if err != nil || trimmed == "" {
+		return defName
+	} else {
+		return trimmed
+	}
+}
+
+func getPlayerNames() (string, string) {
+	reader := bufio.NewReader(os.Stdin)
+
+	fmt.Print("Insert Player 1 name (default 'Player 1'): ")
+	p1Name := parseName(reader, "Player 1")
+
+	fmt.Print("Insert Player 1 name (default 'Player 2'): ")
+	p2Name := parseName(reader, "Player 2")
+
+	return p1Name, p2Name
+}
+
 func runCmd(name string, args ...string) {
     cmd := exec.Command(name, args...)
     cmd.Stdout = os.Stdout
@@ -311,15 +334,17 @@ func main() {
 	fmt.Println("Welcome to Tic Tac Goe!")
 	fmt.Println()
 
-	p1 := Player{ name: "Player 1", mark: X}
-	p2 := Player{ name: "Player 2", mark: O}
+	p1Name, p2Name := getPlayerNames()
+
+	p1 := Player{ name: p1Name, mark: X}
+	p2 := Player{ name: p2Name, mark: O}
 
 	game := NewGame(&p1, &p2)
 	game.Display()
 
 	for !game.IsOver() {
 		current := game.GetCurrentPlayer()
-		row, col := game.getPlayerMove()
+		row, col := game.GetPlayerMove()
 
 		isValid := current.MakeMove(game.board, row, col)
 
