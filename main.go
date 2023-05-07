@@ -4,6 +4,8 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"os/exec"
+	"runtime"
 	"strconv"
 	"strings"
 )
@@ -60,34 +62,34 @@ func NewBoard() *Board {
 	board := &Board{}
 	for i := range board.cells {
         for j := range board.cells[i] {
-            board.cells[i][j] = ""
+            board.cells[i][j] = "   "
         }
     }
     return board
 }
 
 func (board *Board) Display() {
+	fmt.Println("      c1  c2  c3")
+	fmt.Println("    -------------")
 	for i := 0; i < 3; i++ {
+		fmt.Printf("r%d  |", i + 1)
         for j := 0; j < 3; j++ {
             fmt.Print(board.cells[i][j])
-			if j == 0 {
-				fmt.Print("   |  ")
-			} else if j == 1 {
-				fmt.Print(" |  ")
-			}
+			fmt.Print("|")
         }
         fmt.Println()
         if i < 2 {
-            fmt.Println("-----------")
+            fmt.Println("    -------------")
         }
     }
+	fmt.Println("    -------------")
 }
 
 func (board *Board) IsValidPosition(row, col int) bool {
 	if row < 0 || row > 2 || col < 0 || col > 2 {
 		return false
 	}
-	if board.cells[row][col] != "" {
+	if strings.TrimSpace(board.cells[row][col]) != "" {
 		return false
 	}
 	return true
@@ -97,7 +99,7 @@ func (board *Board) SetCell(row, col int, mark PlayerMark) (bool, error) {
 	if !board.IsValidPosition(row, col) {
 		return false, fmt.Errorf("Invalid move. Indexes are invalid or cell is already takes")
 	}
-	board.cells[row][col] = string(mark)
+	board.cells[row][col] = " " + string(mark) + " "
 	return true, nil
 }
 
@@ -111,7 +113,8 @@ func (board *Board) GetCell(row, col int) (string, error) {
 func (b *Board) IsFull() bool {
 	for _, row := range b.cells {
 		for _, cell := range row {
-			if cell == "" {
+			trimmed := strings.TrimSpace(cell)
+			if trimmed == "" || trimmed == "-" {
 				return false
 			}
 		}
@@ -147,6 +150,16 @@ func (board *Board) HasDiagonalWin() bool {
     d2 := []string{board.cells[0][2], board.cells[1][1], board.cells[2][0]}
 
     return allEquals(d1) || allEquals(d2)
+}
+
+func (board *Board) SetRemaining() {
+	for i, row := range board.cells {
+		for j, element := range row {
+			if strings.TrimSpace(element) == "" {
+				board.cells[i][j] = " - "
+			}
+		}
+	}
 }
 
 // ============== GAME ==============
@@ -208,11 +221,6 @@ func (game *Game) getPlayerMove() (int, int) {
 	}
 }
 
-func (game *Game) Play() error {
-	// TODO: Add logic to start the move
-	return nil
-}
-
 func (game *Game) IsWinner() bool {
 	return game.board.IsWinner()
 }
@@ -230,6 +238,9 @@ func (game *Game) IsOver() bool {
 
 	if (game.IsWinner()) {
 		game.winner = game.currentPlayer
+		clearTerminal()
+		game.board.SetRemaining()
+		game.Display()
 		return true
 	}
 
@@ -247,7 +258,7 @@ func (game *Game) AnnounceWinner() {
 // ============== UTILS ==============
 
 func allEquals (arr []string) bool {
-	if len(arr) < 1 || arr[0] == "" {
+	if len(arr) < 1 || strings.TrimSpace(arr[0]) == "" {
 		return false
 	}
 
@@ -276,15 +287,35 @@ func parseInput(input string, board *Board) (int, int, error) {
 	return row - 1, col - 1, nil
 }
 
+func runCmd(name string, args ...string) {
+    cmd := exec.Command(name, args...)
+    cmd.Stdout = os.Stdout
+    cmd.Run()
+}
+
+func clearTerminal() {
+	switch runtime.GOOS {
+	case "darwin", "linux":
+		runCmd("clear")
+	case "windows":
+		runCmd("cmd", "/c", "cls")
+	default:
+		runCmd("clear")
+	}
+}
+
 // ============== MAIN ==============
 
 func main() {
+	clearTerminal()
 	fmt.Println("Welcome to Tic Tac Goe!")
+	fmt.Println()
 
 	p1 := Player{ name: "Player 1", mark: X}
 	p2 := Player{ name: "Player 2", mark: O}
 
 	game := NewGame(&p1, &p2)
+	game.Display()
 
 	for !game.IsOver() {
 		current := game.GetCurrentPlayer()
@@ -297,7 +328,9 @@ func main() {
 			continue
 		}
 
+		clearTerminal()
 		fmt.Println("Here's the updated board:")
+		fmt.Println()
 		game.Display()
 
 		if game.IsOver() {
@@ -305,7 +338,7 @@ func main() {
 		}
 
 		game.SwitchCurrentPlayer()
-		fmt.Printf("It is now %s turn!\n", game.currentPlayer.GetName())
+		fmt.Printf("\nIt is now %s turn!\n", game.currentPlayer.GetName())
 	}
 
 	fmt.Println("Game over!")
