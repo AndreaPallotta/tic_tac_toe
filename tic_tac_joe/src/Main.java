@@ -29,7 +29,8 @@ public class Main {
                     System.out.println("Invalid move. Try again");
                     continue;
                 }
-
+		
+		roundCounter++;
                 Utils.clearTerminal();
                 System.out.println("Here's the updated board. Round " + roundCounter);
                 System.out.println();

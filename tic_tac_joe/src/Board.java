@@ -105,9 +105,6 @@ public class Board {
     }
 
     public boolean checkWinner() {
-        System.out.println(this.hasHorizontalWin());
-        System.out.println(this.hasVerticalWin());
-        System.out.println(this.hasDiagonalWin());
         return this.hasHorizontalWin() || this.hasVerticalWin() || this.hasDiagonalWin();
     }
 
@@ -115,7 +112,7 @@ public class Board {
         for (int i = 0; i < this.cells.length; i++) {
             for (int j = 0; j < this.cells[i].length; j++) {
                 if (this.cells[i][j].trim().equals("")) {
-                    
+        	    this.cells[i][j] = " - ";        
                 }
             }
         }

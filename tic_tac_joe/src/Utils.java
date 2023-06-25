@@ -6,7 +6,6 @@ import java.util.stream.Stream;
 
 public class Utils {
     public static boolean allEquals(String[] arr) {
-        // return Arrays.stream(arr).distinct().count() == 1;
         boolean allSame = Arrays.stream(arr)
                             .map(String::trim)
                             .distinct()
@@ -63,7 +62,7 @@ public class Utils {
     }
 
     public static String getPlayerName(BufferedReader reader, String defaultName, int playerNumber) throws IOException {
-        System.out.print("Insert Player" + playerNumber + " name (default '" + defaultName + "'): ");
+        System.out.print("Insert Player " + playerNumber + " name (default '" + defaultName + "'): ");
         String input = reader.readLine().trim();
 
         return input.isEmpty() ? defaultName : input;
