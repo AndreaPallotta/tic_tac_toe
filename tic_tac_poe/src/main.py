@@ -35,7 +35,7 @@ def main():
                 break
 
             game.switch_current_player()
-            print(f"\nIt is now {game.get_current_player().get_name()}!")
+            print(f"\nIt is now {game.get_current_player().get_name()} turn!")
 
         print("Game over!")
 

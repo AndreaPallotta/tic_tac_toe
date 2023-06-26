@@ -1,0 +1,19 @@
+{
+  "name": "tic_tac_noe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [],
+  "author": "Andrea Pallotta",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.7"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
