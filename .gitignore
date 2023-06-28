@@ -22,3 +22,6 @@ go.work
 
 **/node_modules
 **/*.class
+
+**/target
+**/Cargo.lock

@@ -47,6 +47,6 @@ def main():
 
 if __name__ == "__main__":
     utils.clear_terminal()
-    print("Welcome to Tic Tac Joe!")
+    print("Welcome to Tic Tac Poe!")
 
     main()
