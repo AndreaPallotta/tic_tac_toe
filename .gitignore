@@ -25,3 +25,8 @@ go.work
 
 **/target
 **/Cargo.lock
+
+
+**/*.obj
+**/*.pdb
+**/*.ilk
