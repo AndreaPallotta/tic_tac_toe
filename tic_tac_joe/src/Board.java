@@ -112,7 +112,7 @@ public class Board {
         for (int i = 0; i < this.cells.length; i++) {
             for (int j = 0; j < this.cells[i].length; j++) {
                 if (this.cells[i][j].trim().equals("")) {
-        	    this.cells[i][j] = " - ";        
+        	        this.cells[i][j] = " - ";        
                 }
             }
         }

@@ -68,5 +68,4 @@ class Board:
         return self.has_horizontal_win() or self.has_vertical_win() or self.has_diagonal_win()
 
     def set_remaining_cells(self):
-        self.cells[:] = [[" - " if cell.strip() == "" else cell for cell in row]
-                         for row in self.cells]
+        self.cells[:] = [[" - " if cell.strip() == "" else cell for cell in row] for row in self.cells]
