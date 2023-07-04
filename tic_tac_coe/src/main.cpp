@@ -27,8 +27,6 @@ int main() {
             int row = std::get<0>(move);
             int col = std::get<1>(move);
 
-            std::cout << row << ":" << col << std::endl;
-
             game.makeMove(row, col);
 
             roundCounter++;
