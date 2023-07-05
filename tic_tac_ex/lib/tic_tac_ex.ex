@@ -1,7 +1,7 @@
 defmodule TicTacEoe do
   def main do
     Utilities.clear_terminal()
-    IO.puts("Welcome to Tic Tac Eoe!\n")
+    IO.puts("Welcome to Tic Tac Ex!\n")
 
     try do
       p1_name = Utilities.get_player_name(1)

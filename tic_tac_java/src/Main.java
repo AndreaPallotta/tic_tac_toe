@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 public class Main {
     public static void main(String[] args) {
         Utils.clearTerminal();
-        System.out.println("Welcome to Tic Tac Joe!");
+        System.out.println("Welcome to Tic Tac Java!");
 
         try {
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

@@ -5,7 +5,7 @@ use tic_tac_roe::board::BoardTrait;
 
 fn main() {
     utils::clear_terminal();
-    println!("Welcome to Tic Tac Roe!");
+    println!("Welcome to Tic Tac Rs!");
 
     let p1_name = utils::get_player_name("Player 1", 1);
     let p2_name = utils::get_player_name("Player 2", 2);

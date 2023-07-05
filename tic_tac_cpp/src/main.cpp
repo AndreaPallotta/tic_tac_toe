@@ -4,7 +4,7 @@
 
 int main() {
     clearTerminal();
-    std::cout << "Welcome to Tic Tac Coe!" << std::endl;
+    std::cout << "Welcome to Tic Tac Cpp!" << std::endl;
 
     try {
         int roundCounter = 1;

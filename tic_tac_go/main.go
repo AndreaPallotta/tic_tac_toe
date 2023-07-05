@@ -331,7 +331,7 @@ func clearTerminal() {
 
 func main() {
 	clearTerminal()
-	fmt.Println("Welcome to Tic Tac Goe!")
+	fmt.Println("Welcome to Tic Tac Go!")
 	fmt.Println()
 
 	p1Name, p2Name := getPlayerNames()

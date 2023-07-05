@@ -193,7 +193,7 @@ main() {
 }
 
 clear_terminal
-echo "Welcome to Tic Tac Shoe!"
+echo "Welcome to Tic Tac Sh!"
 
 main
 
