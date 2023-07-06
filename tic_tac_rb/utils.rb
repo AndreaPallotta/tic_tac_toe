@@ -21,7 +21,7 @@ def get_user_name(player_num)
 end
 
 def get_user_input(player_name)
-    print "Player #{player_name}, enter and row and column (e.g. '1 2'): "
+    print "Player #{player_name}, enter row and column (e.g. '1 2'): "
 
     input = gets.chomp.strip.split
 

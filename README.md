@@ -8,6 +8,7 @@ Tic Tac Toe written in different languages:
 - Go
 - NodeJS
 - Java
+- PHP
 - Python
 - Ruby
 - Rust
