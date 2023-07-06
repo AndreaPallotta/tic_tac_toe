@@ -2,8 +2,12 @@
 
 Tic Tac Toe written in different languages:
 
+- Bash
+- C++
+- Elixir
 - Go
-- Java
 - NodeJS
+- Java
 - Python
+- Ruby
 - Rust
