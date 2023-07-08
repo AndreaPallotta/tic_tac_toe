@@ -47,5 +47,6 @@
         "sstream": "cpp",
         "algorithm": "cpp",
         "numeric": "cpp"
-    }
+    },
+    "dotnet.defaultSolution": "tic_tac_cs\\tic_tac_cs.sln"
 }
