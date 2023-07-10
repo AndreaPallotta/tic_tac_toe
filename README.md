@@ -10,6 +10,7 @@ Tic Tac Toe written in different languages:
 - Go
 - NodeJS
 - Java
+- Julia
 - Kotlin
 - PHP
 - Python

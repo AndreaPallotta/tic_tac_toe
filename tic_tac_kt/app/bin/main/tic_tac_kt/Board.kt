@@ -24,7 +24,7 @@ class Board {
     }
 
     public fun getCell(row: Int, col: Int): String {
-        if (!isValidPosition(row, col)) {
+        if (!isValidPosition(row, col, false)) {
             throw Exception("Invalid row or column value. Try again")
         }
 
