@@ -1,0 +1,13 @@
+name: tic_tac_cr
+version: 0.1.0
+
+authors:
+  - AndreaPallotta <andreapallotta.dev@gmail.com>
+
+targets:
+  tic_tac_cr:
+    main: src/tic_tac_cr.cr
+
+crystal: 1.8.2
+
+license: MIT
