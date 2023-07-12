@@ -9,9 +9,10 @@ Tic Tac Toe written in different languages:
 - Dart
 - Elixir
 - Go
-- NodeJS
+- Haxe
 - Java
 - Julia
+- NodeJS
 - Kotlin
 - PHP
 - Python
