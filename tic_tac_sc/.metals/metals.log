@@ -1,0 +1,2005 @@
+2023.07.14 14:17:56 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc' for client Visual Studio Code 1.80.1.[0m
+Jul 14, 2023 2:17:56 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 14, 2023 2:17:56 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 14, 2023 2:17:56 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 14, 2023 2:17:56 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\.metals\metals (H2 2.1)
+Jul 14, 2023 2:17:56 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 14, 2023 2:17:56 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.011s)
+Jul 14, 2023 2:17:56 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 14, 2023 2:17:56 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 14, 2023 2:17:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 14, 2023 2:17:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 14, 2023 2:17:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 14, 2023 2:17:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 14, 2023 2:17:56 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.042s)
+2023.07.14 14:17:56 INFO  time: initialize in 0.49s[0m
+2023.07.14 14:17:57 WARN  Build server is not auto-connectable.[0m
+2023.07.14 14:18:02 INFO  running 'C:\Users\andre\.jabba\jdk\openjdk@1.17.0\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\andre\AppData\Local\Temp\metals17461490227804999222\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.07.14 14:18:02 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.1  (this may take some time)...[0m
+2023.07.14 14:18:09 INFO  [info] welcome to sbt 1.9.1 (Oracle Corporation Java 17)[0m
+2023.07.14 14:18:11 INFO  [info] loading settings for project tic_tac_sc-build-build from metals.sbt ...[0m
+2023.07.14 14:18:11 INFO  [info] loading project definition from C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\project\project[0m
+2023.07.14 14:18:13 INFO  [info] loading settings for project tic_tac_sc-build from metals.sbt ...[0m
+2023.07.14 14:18:13 INFO  [info] loading project definition from C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\project[0m
+2023.07.14 14:18:17 INFO  [success] Generated .bloop\tic_tac_sc-build.json[0m
+2023.07.14 14:18:17 INFO  [info] compiling 1 Scala source to C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\project\target\scala-2.12\sbt-1.0\classes ...[0m
+2023.07.14 14:18:17 INFO  [info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.18. Compiling...[0m
+2023.07.14 14:18:24 INFO  [info]   Compilation completed in 6.919s.[0m
+2023.07.14 14:18:26 INFO  [info] done compiling[0m
+2023.07.14 14:18:26 INFO  [success] Total time: 12 s, completed Jul 14, 2023, 2:18:26 PM[0m
+2023.07.14 14:18:27 INFO  [info] loading settings for project root from build.sbt ...[0m
+2023.07.14 14:18:27 INFO  [info] set current project to tic_tac_sc (in build file:/C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/)[0m
+2023.07.14 14:18:29 INFO  [success] Generated .bloop\root-test.json[0m
+2023.07.14 14:18:29 INFO  [success] Generated .bloop\root.json[0m
+2023.07.14 14:18:29 INFO  [success] Total time: 2 s, completed Jul 14, 2023, 2:18:29 PM[0m
+2023.07.14 14:18:30 INFO  time: ran 'sbt bloopInstall' in 27s[0m
+2023.07.14 14:18:30 INFO  Attempting to connect to the build server...[0m
+2023.07.14 14:18:30 INFO  Setting up current java home C:\Users\andre\.jabba\jdk\openjdk@1.17.0 in C:\Users\andre\.bloop\bloop.json[0m
+2023.07.14 14:18:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\.metals\bsp.trace.json or C:\Users\andre\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2023.07.14 14:18:38 INFO  Attempting to connect to the build server...[0m
+2023.07.14 14:18:38 INFO  Bloop uses C:\Users\andre\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\andre\.bloop\bloop.json[0m
+2023.07.14 14:18:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\project\.metals\bsp.trace.json or C:\Users\andre\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2023.07.14 14:18:39 INFO  time: Connected to build server in 9.47s[0m
+2023.07.14 14:18:39 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.07.14 14:18:39 INFO  time: Imported build in 0.1s[0m
+2023.07.14 14:18:46 INFO  time: indexed workspace in 6.49s[0m
+2023.07.14 14:19:54 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:20:04 INFO  time: compiled root in 9.47s[0m
+2023.07.14 14:20:05 INFO  compiling tic_tac_sc-build (1 scala source)[0m
+2023.07.14 14:20:05 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.18. Compiling...[0m
+2023.07.14 14:20:07 INFO  time: code lens generation in 1.88s[0m
+2023.07.14 14:20:12 INFO    Compilation completed in 7.018s.[0m
+2023.07.14 14:20:15 INFO  time: compiled tic_tac_sc-build in 10s[0m
+2023.07.14 14:20:28 INFO  running 'C:\Users\andre\.jabba\jdk\openjdk@1.17.0\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\andre\AppData\Local\Temp\metals6236194327318331669\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.07.14 14:20:30 INFO  [info] welcome to sbt 1.9.1 (Oracle Corporation Java 17)[0m
+2023.07.14 14:20:30 INFO  [info] loading settings for project tic_tac_sc-build-build from metals.sbt ...[0m
+2023.07.14 14:20:31 INFO  [info] loading project definition from C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\project\project[0m
+2023.07.14 14:20:31 INFO  [info] loading settings for project tic_tac_sc-build from metals.sbt ...[0m
+2023.07.14 14:20:31 INFO  [info] loading project definition from C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\project[0m
+2023.07.14 14:20:34 INFO  [success] Generated .bloop\tic_tac_sc-build.json[0m
+2023.07.14 14:20:34 INFO  [success] Total time: 2 s, completed Jul 14, 2023, 2:20:35 PM[0m
+2023.07.14 14:20:36 INFO  [info] loading settings for project root from build.sbt ...[0m
+2023.07.14 14:20:36 INFO  [info] set current project to tic_tac_sc (in build file:/C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/)[0m
+2023.07.14 14:20:36 INFO  [success] Generated .bloop\root-test.json[0m
+2023.07.14 14:20:36 INFO  [success] Generated .bloop\root.json[0m
+2023.07.14 14:20:36 INFO  [success] Total time: 0 s, completed Jul 14, 2023, 2:20:37 PM[0m
+2023.07.14 14:20:37 INFO  time: ran 'sbt bloopInstall' in 8.44s[0m
+2023.07.14 14:20:37 INFO  Disconnecting from Bloop session...[0m
+2023.07.14 14:20:37 INFO  Shut down connection with build server.[0m
+2023.07.14 14:20:37 INFO  Shut down connection with build server.[0m
+2023.07.14 14:20:37 INFO  Attempting to connect to the build server...[0m
+2023.07.14 14:20:37 INFO  Bloop uses C:\Users\andre\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\andre\.bloop\bloop.json[0m
+2023.07.14 14:20:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\.metals\bsp.trace.json or C:\Users\andre\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2023.07.14 14:20:37 INFO  Attempting to connect to the build server...[0m
+2023.07.14 14:20:37 INFO  Bloop uses C:\Users\andre\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\andre\.bloop\bloop.json[0m
+2023.07.14 14:20:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\project\.metals\bsp.trace.json or C:\Users\andre\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2023.07.14 14:20:37 INFO  time: Connected to build server in 83ms[0m
+2023.07.14 14:20:37 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.07.14 14:20:38 INFO  time: indexed workspace in 1.28s[0m
+2023.07.14 14:20:40 INFO  compiling root-test (1 scala source)[0m
+2023.07.14 14:20:40 INFO  time: compiled root-test in 1ms[0m
+2023.07.14 14:20:40 INFO  skipping build import with status 'Installed'[0m
+2023.07.14 14:20:40 INFO  time: code lens generation in 1.31s[0m
+2023.07.14 14:20:47 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:20:47 INFO  time: compiled root in 0.13s[0m
+2023.07.14 14:20:47 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:20:47 INFO  time: compiled root in 43ms[0m
+2023.07.14 14:21:00 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:21:00 INFO  time: compiled root in 0.6s[0m
+2023.07.14 14:21:15 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:21:15 INFO  time: compiled root in 0.57s[0m
+2023.07.14 14:21:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:21:22 INFO  time: compiled root in 0.43s[0m
+2023.07.14 14:21:42 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:21:42 INFO  time: compiled root in 0.42s[0m
+Jul 14, 2023 2:21:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 195
+2023.07.14 14:21:48 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:21:48 INFO  time: compiled root in 0.89s[0m
+2023.07.14 14:21:49 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:21:49 INFO  time: compiled root in 0.21s[0m
+2023.07.14 14:21:49 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:21:49 INFO  time: compiled root in 21ms[0m
+2023.07.14 14:21:49 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:21:49 INFO  time: compiled root in 21ms[0m
+Jul 14, 2023 2:21:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 232
+2023.07.14 14:21:59 INFO  compiling root-test (1 scala source)[0m
+2023.07.14 14:21:59 INFO  time: compiled root-test in 85ms[0m
+2023.07.14 14:21:59 INFO  compiling root-test (1 scala source)[0m
+2023.07.14 14:21:59 INFO  time: compiled root-test in 55ms[0m
+2023.07.14 14:21:59 INFO  compiling root-test (1 scala source)[0m
+2023.07.14 14:21:59 INFO  time: compiled root-test in 46ms[0m
+2023.07.14 14:21:59 INFO  compiling root-test (1 scala source)[0m
+2023.07.14 14:21:59 INFO  time: compiled root-test in 61ms[0m
+2023.07.14 14:22:03 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:22:03 INFO  time: compiled root in 0.4s[0m
+2023.07.14 14:22:06 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:22:06 INFO  time: compiled root in 0.48s[0m
+2023.07.14 14:25:48 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:25:48 INFO  time: compiled root in 0.49s[0m
+2023.07.14 14:25:49 INFO  compiling root-test (1 scala source)[0m
+2023.07.14 14:25:49 INFO  time: compiled root-test in 25ms[0m
+2023.07.14 14:25:58 INFO  compiling root-test (1 scala source)[0m
+2023.07.14 14:25:58 INFO  time: compiled root-test in 43ms[0m
+2023.07.14 14:25:59 INFO  compiling root-test (1 scala source)[0m
+2023.07.14 14:25:59 INFO  time: compiled root-test in 43ms[0m
+2023.07.14 14:27:21 INFO  compiling tic_tac_sc-build (1 scala source)[0m
+2023.07.14 14:27:21 INFO  time: compiled tic_tac_sc-build in 0.65s[0m
+2023.07.14 14:27:25 INFO  skipping build import with status 'Dismissed'[0m
+2023.07.14 14:27:34 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:27:34 INFO  time: compiled root in 0.4s[0m
+2023.07.14 14:27:35 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:27:35 INFO  time: compiled root in 0.14s[0m
+2023.07.14 14:27:38 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:27:38 INFO  time: compiled root in 0.36s[0m
+2023.07.14 14:27:38 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:27:38 INFO  time: compiled root in 0.14s[0m
+2023.07.14 14:27:40 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:27:40 INFO  time: compiled root in 0.11s[0m
+2023.07.14 14:27:47 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:27:47 INFO  time: compiled root in 0.42s[0m
+2023.07.14 14:27:48 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:27:48 INFO  time: compiled root in 0.11s[0m
+2023.07.14 14:27:50 INFO  skipping build import with status 'Dismissed'[0m
+2023.07.14 14:27:58 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:27:58 INFO  time: compiled root in 0.42s[0m
+2023.07.14 14:28:05 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:28:05 INFO  time: compiled root in 0.39s[0m
+2023.07.14 14:28:12 INFO  skipping build import with status 'Dismissed'[0m
+2023.07.14 14:28:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 14:28:22 INFO  time: compiled root in 0.36s[0m
+2023.07.14 15:15:11 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:15:11 INFO  time: compiled root in 64ms[0m
+2023.07.14 15:15:15 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:15:15 INFO  time: compiled root in 34ms[0m
+2023.07.14 15:15:18 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:15:18 INFO  time: compiled root in 33ms[0m
+2023.07.14 15:15:20 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:15:20 INFO  time: compiled root in 34ms[0m
+2023.07.14 15:15:20 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala:3:13: stale bloop error: ';' expected but 'with' found.
+object Main with App {
+            ^[0m
+2023.07.14 15:15:20 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala:3:13: stale bloop error: ';' expected but 'with' found.
+object Main with App {
+            ^[0m
+2023.07.14 15:15:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:15:22 INFO  time: compiled root in 35ms[0m
+2023.07.14 15:15:28 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:15:28 INFO  time: compiled root in 0.35s[0m
+2023.07.14 15:15:35 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:15:35 INFO  time: compiled root in 0.29s[0m
+2023.07.14 15:15:39 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:15:39 INFO  time: compiled root in 42ms[0m
+2023.07.14 15:15:40 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:15:40 INFO  time: compiled root in 43ms[0m
+Jul 14, 2023 3:15:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 707
+Jul 14, 2023 3:15:42 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 14, 2023 3:15:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:426)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2023.07.14 15:15:43 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:15:43 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:15:43 INFO  time: compiled root in 0.32s[0m
+2023.07.14 15:15:47 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:15:47 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:15:47 INFO  time: compiled root in 0.32s[0m
+2023.07.14 15:15:55 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:15:55 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Utils.scala:5:13: stale bloop error: invalid escape character
+    print("\x1B[2J\x1B[H")
+            ^[0m
+2023.07.14 15:15:55 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Utils.scala:5:13: stale bloop error: invalid escape character
+    print("\x1B[2J\x1B[H")
+            ^[0m
+2023.07.14 15:15:55 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Utils.scala:5:20: stale bloop error: invalid escape character
+    print("\x1B[2J\x1B[H")
+                   ^[0m
+2023.07.14 15:15:55 INFO  time: compiled root in 36ms[0m
+2023.07.14 15:16:17 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Utils.scala:5:13: stale bloop error: invalid escape character
+    print("\x1B[2J\x1B[H")
+            ^[0m
+2023.07.14 15:16:17 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Utils.scala:5:20: stale bloop error: invalid escape character
+    print("\x1B[2J\x1B[H")
+                   ^[0m
+2023.07.14 15:16:17 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Utils.scala:5:13: stale bloop error: invalid escape character
+    print("\x1B[2J\x1B[H")
+            ^[0m
+2023.07.14 15:16:17 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Utils.scala:5:20: stale bloop error: invalid escape character
+    print("\x1B[2J\x1B[H")
+                   ^[0m
+2023.07.14 15:16:18 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:16:18 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:16:18 INFO  time: compiled root in 0.36s[0m
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala, 52, 52, 67)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala, 52, 52, 61)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala in Array[String]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala, 52, 52, 65)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala in Array[String]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala, 52, 52, 65)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala in Array[String]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala, 52, 52, 65)
+2023.07.14 15:17:12 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:17:12 INFO  time: compiled root in 37ms[0m
+2023.07.14 15:17:15 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:17:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:17:15 INFO  time: compiled root in 0.58s[0m
+2023.07.14 15:17:21 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:17:21 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:17:21 INFO  time: compiled root in 0.35s[0m
+2023.07.14 15:17:21 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:17:21 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:17:21 INFO  time: compiled root in 75ms[0m
+2023.07.14 15:17:52 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:17:52 WARN  Could not load snapshot text for C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\src\main\scala\tictacsc\Main.scala[0m
+2023.07.14 15:17:52 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:17:52 INFO  time: compiled root in 0.39s[0m
+2023.07.14 15:18:44 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:18:44 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:18:44 INFO  time: compiled root in 0.3s[0m
+2023.07.14 15:18:46 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:18:46 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:18:46 INFO  time: compiled root in 0.31s[0m
+2023.07.14 15:18:47 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:18:47 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:18:47 INFO  time: compiled root in 0.3s[0m
+2023.07.14 15:19:43 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:19:43 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:19:43 INFO  time: compiled root in 0.34s[0m
+Jul 14, 2023 3:20:10 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 14, 2023 3:20:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Utils.scala: 98 >= 98
+java.lang.AssertionError: assertion failed: file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Utils.scala: 98 >= 98
+	at scala.reflect.internal.util.SourceFile.position(SourceFile.scala:34)
+	at scala.tools.nsc.CompilationUnits$CompilationUnit.position(CompilationUnits.scala:136)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+2023.07.14 15:20:27 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:20:27 INFO  time: compiled root in 30ms[0m
+2023.07.14 15:20:29 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:20:29 INFO  time: compiled root in 43ms[0m
+2023.07.14 15:21:04 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:21:04 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:21:04 INFO  time: compiled root in 0.31s[0m
+2023.07.14 15:21:12 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:21:12 INFO  time: compiled root in 0.29s[0m
+2023.07.14 15:21:37 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:21:37 INFO  time: compiled root in 0.32s[0m
+2023.07.14 15:21:39 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:21:39 INFO  time: compiled root in 35ms[0m
+Jul 14, 2023 3:21:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1196
+2023.07.14 15:21:50 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:21:50 INFO  time: compiled root in 0.35s[0m
+2023.07.14 15:21:55 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:21:55 INFO  time: compiled root in 0.34s[0m
+2023.07.14 15:22:01 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:22:01 INFO  time: compiled root in 0.32s[0m
+2023.07.14 15:26:01 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:26:01 INFO  time: compiled root in 0.32s[0m
+2023.07.14 15:26:03 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:26:03 INFO  time: compiled root in 0.28s[0m
+2023.07.14 15:26:36 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:26:36 INFO  time: compiled root in 0.28s[0m
+2023.07.14 15:26:53 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:26:53 INFO  time: compiled root in 0.29s[0m
+2023.07.14 15:28:33 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:28:33 INFO  time: compiled root in 40ms[0m
+2023.07.14 15:28:38 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:28:38 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:28:38 INFO  time: compiled root in 0.32s[0m
+Jul 14, 2023 3:28:40 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+2023.07.14 15:28:42 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:28:42 INFO  time: compiled root in 39ms[0m
+Jul 14, 2023 3:28:43 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+Jul 14, 2023 3:28:44 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+Jul 14, 2023 3:28:44 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+Jul 14, 2023 3:28:44 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+Jul 14, 2023 3:28:44 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+2023.07.14 15:28:46 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:28:46 INFO  time: compiled root in 46ms[0m
+2023.07.14 15:28:48 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Utils.scala:9:5: stale bloop error: only declarations allowed here
+    var defName = s""
+    ^^^^^^^^^^^^^^^^^[0m
+2023.07.14 15:28:48 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Utils.scala:8:3: stale bloop error: only traits and abstract classes can have declared but undefined members
+> def getUserName(playerNum: Int): String {
+>     var defName = s""
+>   }[0m
+2023.07.14 15:28:48 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Utils.scala:9:5: stale bloop error: only declarations allowed here
+    var defName = s""
+    ^^^^^^^^^^^^^^^^^[0m
+2023.07.14 15:28:48 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Utils.scala:8:3: stale bloop error: only traits and abstract classes can have declared but undefined members
+> def getUserName(playerNum: Int): String {
+>     var defName = s""
+>   }[0m
+2023.07.14 15:28:53 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:28:53 INFO  time: compiled root in 32ms[0m
+2023.07.14 15:28:57 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:28:57 INFO  time: compiled root in 33ms[0m
+2023.07.14 15:29:02 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:29:02 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:29:02 INFO  time: compiled root in 0.43s[0m
+2023.07.14 15:29:05 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:29:05 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:29:05 INFO  time: compiled root in 0.75s[0m
+2023.07.14 15:29:07 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:29:07 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:29:07 INFO  time: compiled root in 0.36s[0m
+2023.07.14 15:29:13 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:29:13 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:29:13 INFO  time: compiled root in 0.41s[0m
+2023.07.14 15:29:17 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:29:17 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:29:17 INFO  time: compiled root in 0.37s[0m
+2023.07.14 15:29:25 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:29:25 INFO  time: compiled root in 34ms[0m
+2023.07.14 15:29:30 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:29:30 INFO  time: compiled root in 64ms[0m
+2023.07.14 15:29:47 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:29:47 INFO  time: compiled root in 48ms[0m
+2023.07.14 15:29:51 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:29:51 INFO  time: compiled root in 37ms[0m
+2023.07.14 15:30:04 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:30:04 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:30:04 INFO  time: compiled root in 0.39s[0m
+2023.07.14 15:30:08 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:30:08 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:30:08 INFO  time: compiled root in 0.37s[0m
+2023.07.14 15:30:11 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:30:11 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:30:11 INFO  time: compiled root in 0.38s[0m
+2023.07.14 15:30:15 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:30:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:30:15 INFO  time: compiled root in 0.41s[0m
+2023.07.14 15:30:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:30:22 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:30:22 INFO  time: compiled root in 0.38s[0m
+2023.07.14 15:30:26 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:30:26 INFO  time: compiled root in 47ms[0m
+2023.07.14 15:30:57 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:30:57 INFO  time: compiled root in 33ms[0m
+2023.07.14 15:31:24 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:31:24 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:31:24 INFO  time: compiled root in 0.38s[0m
+2023.07.14 15:31:26 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:31:26 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:31:26 INFO  time: compiled root in 0.39s[0m
+2023.07.14 15:31:51 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:31:51 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:31:51 INFO  time: compiled root in 0.37s[0m
+2023.07.14 15:31:54 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:31:54 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:31:54 INFO  time: compiled root in 0.41s[0m
+2023.07.14 15:32:09 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:32:09 INFO  time: compiled root in 51ms[0m
+2023.07.14 15:32:11 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:32:11 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:32:11 INFO  time: compiled root in 0.38s[0m
+2023.07.14 15:32:16 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:32:16 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:32:16 INFO  time: compiled root in 0.39s[0m
+2023.07.14 15:32:18 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:32:18 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:32:18 INFO  time: compiled root in 0.37s[0m
+2023.07.14 15:32:19 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:32:19 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:32:19 INFO  time: compiled root in 91ms[0m
+2023.07.14 15:32:26 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:32:26 INFO  time: compiled root in 48ms[0m
+2023.07.14 15:32:28 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:32:28 WARN  1 deprecation (since 2.11.0)[0m
+2023.07.14 15:32:28 WARN  1 deprecation (since 2.13.0)[0m
+2023.07.14 15:32:28 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+2023.07.14 15:32:28 INFO  time: compiled root in 0.38s[0m
+2023.07.14 15:32:30 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:32:30 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:32:30 INFO  time: compiled root in 0.64s[0m
+2023.07.14 15:32:32 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:32:32 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:32:32 INFO  time: compiled root in 0.4s[0m
+2023.07.14 15:32:50 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:32:50 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:32:50 INFO  time: compiled root in 0.38s[0m
+2023.07.14 15:32:58 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:32:58 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:32:58 INFO  time: compiled root in 0.37s[0m
+2023.07.14 15:32:59 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:32:59 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:32:59 INFO  time: compiled root in 87ms[0m
+2023.07.14 15:33:11 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:33:11 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:33:11 INFO  time: compiled root in 0.37s[0m
+2023.07.14 15:33:39 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:33:39 INFO  time: compiled root in 54ms[0m
+2023.07.14 15:33:45 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:33:45 INFO  time: compiled root in 44ms[0m
+2023.07.14 15:33:50 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:33:50 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:33:50 INFO  time: compiled root in 0.37s[0m
+2023.07.14 15:33:52 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:33:52 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:33:52 INFO  time: compiled root in 0.36s[0m
+2023.07.14 15:33:59 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:33:59 INFO  time: compiled root in 47ms[0m
+2023.07.14 15:34:04 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:34:04 INFO  time: compiled root in 36ms[0m
+2023.07.14 15:34:43 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:34:43 INFO  time: compiled root in 58ms[0m
+2023.07.14 15:34:44 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:34:44 INFO  time: compiled root in 51ms[0m
+2023.07.14 15:34:50 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:34:50 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:34:50 INFO  time: compiled root in 0.39s[0m
+2023.07.14 15:35:00 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:35:00 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:35:00 INFO  time: compiled root in 0.39s[0m
+2023.07.14 15:35:05 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:35:05 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:35:05 INFO  time: compiled root in 0.4s[0m
+2023.07.14 15:35:15 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:35:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:35:15 INFO  time: compiled root in 0.39s[0m
+2023.07.14 15:35:23 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:35:23 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:35:23 INFO  time: compiled root in 0.62s[0m
+2023.07.14 15:35:48 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:35:48 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:35:48 INFO  time: compiled root in 0.39s[0m
+2023.07.14 15:35:49 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:35:49 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:35:49 INFO  time: compiled root in 0.39s[0m
+2023.07.14 15:36:04 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:36:04 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:36:04 INFO  time: compiled root in 0.42s[0m
+2023.07.14 15:36:10 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:36:10 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:36:10 INFO  time: compiled root in 0.47s[0m
+Jul 14, 2023 3:36:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3482
+2023.07.14 15:36:45 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:36:45 WARN  failed to generate semanticdb for C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\src\main\scala\tictacsc\Utils.scala:
+C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\src\main\scala\tictacsc\Utils.scala:35: error: illegal start of simple expression
+    }
+    ^
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2156)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2109)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2092)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:1958)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1603)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:323)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:367)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1508)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1397)
+	at scala.meta.internal.parsers.ScalametaParser.termFunctionBody(ScalametaParser.scala:1737)
+	at scala.meta.internal.parsers.ScalametaParser.exprOtherRest(ScalametaParser.scala:1721)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1604)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:323)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:367)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1508)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1397)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$4(ScalametaParser.scala:1523)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.caseClausesOrExpr$1(ScalametaParser.scala:1523)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1528)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:323)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:367)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1508)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$5(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4280)
+	at scala.meta.internal.parsers.ScalametaParser.iter$4(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1(ScalametaParser.scala:4446)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1$adapted(ScalametaParser.scala:4401)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:523)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4401)
+	at scala.meta.internal.parsers.ScalametaParser.blockWithStats$1(ScalametaParser.scala:2370)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$1(ScalametaParser.scala:2372)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.block(ScalametaParser.scala:2369)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2366)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2138)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2109)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2092)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:1958)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1603)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:323)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:367)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1508)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1397)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1421)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:3655)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:369)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:374)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:3617)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3561)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3391)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3370)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4348)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4342)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4299)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$3(ScalametaParser.scala:4334)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$3$adapted(ScalametaParser.scala:4333)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:523)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4333)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4166)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:258)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4166)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4174)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4155)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:3856)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:369)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:374)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:3848)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3724)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3705)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4318)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4306)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4299)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4509)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4520)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:369)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$10(ScalametaParser.scala:4520)
+	at scala.meta.internal.parsers.ScalametaParser.tryParse(ScalametaParser.scala:218)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4512)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4479)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4477)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:127)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:124)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:46)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:124)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:54)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.saveSemanticdbForCompilationUnit(SemanticdbPipeline.scala:60)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.apply(SemanticdbPipeline.scala:67)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:480)
+	at scala.tools.nsc.Global$GlobalPhase.run(Global.scala:427)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.run(SemanticdbPipeline.scala:77)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1545)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1529)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1521)
+	at scala.tools.nsc.Global$Run.compileFiles(Global.scala:1634)
+	at xsbt.CachedCompiler0.run(CompilerBridge.scala:163)
+	at xsbt.CachedCompiler0.run(CompilerBridge.scala:134)
+	at xsbt.CompilerBridge.run(CompilerBridge.scala:39)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:67)
+	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:41)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[0m
+2023.07.14 15:36:45 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:36:45 INFO  time: compiled root in 0.34s[0m
+2023.07.14 15:36:49 WARN  Could not load snapshot text for C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\src\main\scala\tictacsc\Utils.scala[0m
+2023.07.14 15:36:49 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:36:49 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:36:49 INFO  time: compiled root in 0.43s[0m
+2023.07.14 15:36:53 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:36:53 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:36:53 INFO  time: compiled root in 0.43s[0m
+2023.07.14 15:37:01 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:37:01 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:37:01 INFO  time: compiled root in 0.43s[0m
+2023.07.14 15:37:03 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:37:03 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:37:03 INFO  time: compiled root in 0.42s[0m
+2023.07.14 15:37:06 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:37:06 INFO  time: compiled root in 34ms[0m
+2023.07.14 15:37:14 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:37:14 INFO  time: compiled root in 31ms[0m
+2023.07.14 15:37:16 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:37:16 INFO  time: compiled root in 30ms[0m
+2023.07.14 15:37:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:37:22 INFO  time: compiled root in 34ms[0m
+2023.07.14 15:37:36 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:37:36 INFO  time: compiled root in 38ms[0m
+2023.07.14 15:37:39 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:37:39 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:37:39 INFO  time: compiled root in 0.45s[0m
+2023.07.14 15:37:51 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:37:51 INFO  time: compiled root in 49ms[0m
+2023.07.14 15:37:53 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:37:53 INFO  time: compiled root in 50ms[0m
+2023.07.14 15:37:55 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:37:55 INFO  time: compiled root in 50ms[0m
+2023.07.14 15:38:02 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:38:02 INFO  time: compiled root in 64ms[0m
+2023.07.14 15:38:05 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:38:05 INFO  time: compiled root in 34ms[0m
+2023.07.14 15:38:12 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:38:12 INFO  time: compiled root in 38ms[0m
+2023.07.14 15:38:38 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:38:38 INFO  time: compiled root in 31ms[0m
+2023.07.14 15:38:40 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:38:40 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:38:40 INFO  time: compiled root in 0.67s[0m
+2023.07.14 15:38:48 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:38:48 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:38:48 INFO  time: compiled root in 0.43s[0m
+2023.07.14 15:39:04 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:39:04 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:39:04 INFO  time: compiled root in 0.43s[0m
+2023.07.14 15:39:13 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:39:13 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:39:13 INFO  time: compiled root in 0.43s[0m
+2023.07.14 15:39:35 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:39:35 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:39:35 INFO  time: compiled root in 0.38s[0m
+2023.07.14 15:39:44 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:39:44 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:39:44 INFO  time: compiled root in 0.36s[0m
+2023.07.14 15:40:15 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:40:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:40:15 INFO  time: compiled root in 0.39s[0m
+2023.07.14 15:40:20 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:40:20 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:40:20 INFO  time: compiled root in 0.38s[0m
+2023.07.14 15:40:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:40:22 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:40:22 INFO  time: compiled root in 0.37s[0m
+2023.07.14 15:40:29 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:40:29 INFO  time: compiled root in 48ms[0m
+2023.07.14 15:40:39 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:40:39 INFO  time: compiled root in 43ms[0m
+2023.07.14 15:40:43 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:40:43 INFO  time: compiled root in 45ms[0m
+2023.07.14 15:40:53 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:40:53 INFO  time: compiled root in 44ms[0m
+2023.07.14 15:41:01 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:41:01 INFO  time: compiled root in 30ms[0m
+2023.07.14 15:41:02 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:41:02 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:41:02 INFO  time: compiled root in 0.38s[0m
+2023.07.14 15:41:06 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:41:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:41:06 INFO  time: compiled root in 0.37s[0m
+2023.07.14 15:41:07 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:41:07 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:41:07 INFO  time: compiled root in 77ms[0m
+2023.07.14 15:41:19 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:41:19 INFO  time: compiled root in 35ms[0m
+Jul 14, 2023 3:41:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4739
+2023.07.14 15:41:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:41:22 INFO  time: compiled root in 32ms[0m
+2023.07.14 15:41:24 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala:17:27: stale bloop error: identifier expected but ')' found.
+      println(p1.name, p2.)
+                          ^[0m
+2023.07.14 15:41:24 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala:17:27: stale bloop error: identifier expected but ')' found.
+      println(p1.name, p2.)
+                          ^[0m
+2023.07.14 15:41:27 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:41:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:41:27 INFO  time: compiled root in 0.66s[0m
+2023.07.14 15:41:57 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:41:57 INFO  time: compiled root in 0.33s[0m
+2023.07.14 15:42:04 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:42:04 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:42:04 INFO  time: compiled root in 0.38s[0m
+2023.07.14 15:42:06 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:42:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:42:06 INFO  time: compiled root in 0.42s[0m
+2023.07.14 15:42:07 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:42:07 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:42:07 INFO  time: compiled root in 87ms[0m
+2023.07.14 15:42:21 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:42:21 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:42:21 INFO  time: compiled root in 0.41s[0m
+2023.07.14 15:42:26 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:42:26 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:42:26 INFO  time: compiled root in 0.38s[0m
+2023.07.14 15:42:51 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:42:51 INFO  time: compiled root in 0.29s[0m
+2023.07.14 15:43:13 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:43:13 INFO  time: compiled root in 34ms[0m
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 60, 60, 75)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 60, 60, 68)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 60, 60, 69)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 60, 60, 71)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 60, 60, 72)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 60, 60, 74)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 60, 60, 75)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 60, 60, 74)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 60, 60, 72)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 66, 66, 81)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 66, 66, 74)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 66, 66, 75)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 66, 66, 77)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[String]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 66, 66, 79)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[String]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 66, 66, 79)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala in Array[String]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Board.scala, 66, 66, 79)
+2023.07.14 15:43:27 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:43:27 INFO  time: compiled root in 55ms[0m
+Jul 14, 2023 3:43:28 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 14, 2023 3:43:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: class scala.reflect.internal.Types$PolyType cannot be cast to class scala.reflect.internal.Types$OverloadedType (scala.reflect.internal.Types$PolyType and scala.reflect.internal.Types$OverloadedType are in unnamed module of loader java.net.URLClassLoader @1a9572d6)
+java.lang.ClassCastException: class scala.reflect.internal.Types$PolyType cannot be cast to class scala.reflect.internal.Types$OverloadedType (scala.reflect.internal.Types$PolyType and scala.reflect.internal.Types$OverloadedType are in unnamed module of loader java.net.URLClassLoader @1a9572d6)
+	at scala.reflect.internal.Symbols$Symbol.alternatives(Symbols.scala:2013)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall.alternatives(SignatureHelpProvider.scala:154)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2(SignatureHelpProvider.scala:282)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2$adapted(SignatureHelpProvider.scala:281)
+	at scala.Option$WithFilter.$anonfun$withFilter$1(Option.scala:362)
+	at scala.Option$WithFilter.$anonfun$withFilter$1$adapted(Option.scala:362)
+	at scala.Option$WithFilter.map(Option.scala:319)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:281)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2023.07.14 15:43:32 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:43:32 INFO  time: compiled root in 0.41s[0m
+2023.07.14 15:44:28 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:44:28 INFO  time: compiled root in 30ms[0m
+2023.07.14 15:44:30 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:44:30 INFO  time: compiled root in 51ms[0m
+2023.07.14 15:45:01 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:45:01 INFO  time: compiled root in 45ms[0m
+2023.07.14 15:45:03 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:45:03 INFO  time: compiled root in 43ms[0m
+2023.07.14 15:45:05 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:45:05 INFO  time: compiled root in 0.34s[0m
+2023.07.14 15:45:13 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:45:13 INFO  time: compiled root in 0.34s[0m
+2023.07.14 15:45:17 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:45:17 INFO  time: compiled root in 0.34s[0m
+2023.07.14 15:45:19 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:45:19 INFO  time: compiled root in 0.32s[0m
+2023.07.14 15:45:19 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.12' (since 1h 24m 43.09s)[0m
+2023.07.14 15:45:27 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:45:27 INFO  time: compiled root in 0.56s[0m
+2023.07.14 15:45:29 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:45:29 INFO  time: compiled root in 0.31s[0m
+2023.07.14 15:45:43 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:45:43 INFO  time: compiled root in 46ms[0m
+2023.07.14 15:45:50 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:45:50 INFO  time: compiled root in 55ms[0m
+2023.07.14 15:45:54 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:45:54 INFO  time: compiled root in 34ms[0m
+2023.07.14 15:46:05 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:46:05 INFO  time: compiled root in 30ms[0m
+2023.07.14 15:46:10 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:46:10 INFO  time: compiled root in 29ms[0m
+2023.07.14 15:46:16 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:46:16 INFO  time: compiled root in 31ms[0m
+2023.07.14 15:46:21 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:46:21 INFO  time: compiled root in 30ms[0m
+2023.07.14 15:46:25 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:46:25 INFO  time: compiled root in 49ms[0m
+2023.07.14 15:46:32 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:46:32 INFO  time: compiled root in 0.38s[0m
+2023.07.14 15:46:39 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:46:39 INFO  time: compiled root in 0.38s[0m
+2023.07.14 15:46:40 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:46:40 INFO  time: compiled root in 83ms[0m
+Jul 14, 2023 3:46:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5911
+Jul 14, 2023 3:46:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5925
+2023.07.14 15:46:55 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:46:55 INFO  time: compiled root in 0.41s[0m
+2023.07.14 15:47:03 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:47:03 INFO  time: compiled root in 53ms[0m
+2023.07.14 15:47:05 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:47:05 INFO  time: compiled root in 0.4s[0m
+2023.07.14 15:47:11 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:47:11 INFO  time: compiled root in 0.39s[0m
+2023.07.14 15:47:16 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:47:16 INFO  time: compiled root in 0.38s[0m
+2023.07.14 15:47:20 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:47:20 INFO  time: compiled root in 0.41s[0m
+2023.07.14 15:47:32 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:47:32 INFO  time: compiled root in 0.35s[0m
+2023.07.14 15:47:34 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:47:34 INFO  time: compiled root in 0.39s[0m
+2023.07.14 15:47:39 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:47:39 INFO  time: compiled root in 48ms[0m
+2023.07.14 15:47:40 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:47:40 INFO  time: compiled root in 46ms[0m
+2023.07.14 15:47:46 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:47:46 INFO  time: compiled root in 31ms[0m
+2023.07.14 15:47:49 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:47:49 INFO  time: compiled root in 30ms[0m
+2023.07.14 15:47:51 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:47:51 INFO  time: compiled root in 52ms[0m
+2023.07.14 15:48:00 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:48:00 INFO  time: compiled root in 47ms[0m
+2023.07.14 15:48:06 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:48:06 INFO  time: compiled root in 0.62s[0m
+2023.07.14 15:48:19 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:48:19 INFO  time: compiled root in 57ms[0m
+2023.07.14 15:48:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:48:22 INFO  time: compiled root in 51ms[0m
+2023.07.14 15:48:23 WARN  Using indexes to guess the definition of setCell[0m
+2023.07.14 15:48:23 WARN  Using indexes to guess the definition of setCell[0m
+Exception in thread "pool-8-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.14 15:48:25 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:48:25 INFO  time: compiled root in 0.43s[0m
+2023.07.14 15:48:25 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:48:25 INFO  time: compiled root in 0.1s[0m
+2023.07.14 15:48:31 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:48:31 INFO  time: compiled root in 0.43s[0m
+2023.07.14 15:48:39 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:48:39 INFO  time: compiled root in 55ms[0m
+2023.07.14 15:48:43 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:48:43 INFO  time: compiled root in 0.41s[0m
+Jul 14, 2023 3:48:48 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 14, 2023 3:48:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:426)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2023.07.14 15:48:51 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:48:51 INFO  time: compiled root in 0.41s[0m
+2023.07.14 15:48:54 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:48:54 INFO  time: compiled root in 0.41s[0m
+2023.07.14 15:49:05 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:49:05 INFO  time: compiled root in 0.4s[0m
+2023.07.14 15:49:10 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:49:10 INFO  time: compiled root in 0.4s[0m
+2023.07.14 15:49:16 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:49:16 INFO  time: compiled root in 0.44s[0m
+2023.07.14 15:49:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:49:22 INFO  time: compiled root in 0.41s[0m
+2023.07.14 15:49:23 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:49:23 INFO  time: compiled root in 97ms[0m
+2023.07.14 15:51:05 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:51:05 INFO  time: compiled root in 0.69s[0m
+2023.07.14 15:51:29 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:51:29 INFO  time: compiled root in 0.47s[0m
+2023.07.14 15:51:36 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:51:36 INFO  time: compiled root in 0.47s[0m
+2023.07.14 15:51:46 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:51:46 INFO  time: compiled root in 0.48s[0m
+2023.07.14 15:51:48 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:51:48 INFO  time: compiled root in 0.49s[0m
+2023.07.14 15:51:54 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:51:54 INFO  time: compiled root in 0.46s[0m
+2023.07.14 15:52:02 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:52:02 INFO  time: compiled root in 69ms[0m
+2023.07.14 15:52:11 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:52:11 INFO  time: compiled root in 66ms[0m
+2023.07.14 15:52:13 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:52:13 INFO  time: compiled root in 0.48s[0m
+2023.07.14 15:52:17 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:52:17 INFO  time: compiled root in 0.69s[0m
+2023.07.14 15:52:21 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:52:21 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+2023.07.14 15:52:21 INFO  time: compiled root in 0.51s[0m
+2023.07.14 15:52:25 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:52:25 INFO  time: compiled root in 0.52s[0m
+2023.07.14 15:52:30 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:52:30 INFO  time: compiled root in 0.48s[0m
+2023.07.14 15:52:32 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:52:32 INFO  time: compiled root in 0.47s[0m
+2023.07.14 15:52:35 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:52:35 INFO  time: compiled root in 0.46s[0m
+2023.07.14 15:52:39 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:52:39 INFO  time: compiled root in 32ms[0m
+2023.07.14 15:52:40 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:52:40 INFO  time: compiled root in 32ms[0m
+2023.07.14 15:52:48 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:52:48 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:52:48 INFO  time: compiled root in 0.37s[0m
+2023.07.14 15:52:50 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:52:50 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:52:50 INFO  time: compiled root in 0.37s[0m
+2023.07.14 15:52:57 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:52:57 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:52:57 INFO  time: compiled root in 0.37s[0m
+2023.07.14 15:53:04 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:53:04 INFO  time: compiled root in 67ms[0m
+2023.07.14 15:53:11 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:53:11 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:53:11 INFO  time: compiled root in 0.37s[0m
+2023.07.14 15:53:38 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:53:38 INFO  time: compiled root in 0.47s[0m
+2023.07.14 15:53:58 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:53:58 INFO  time: compiled root in 0.74s[0m
+2023.07.14 15:54:01 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:54:01 INFO  time: compiled root in 0.47s[0m
+2023.07.14 15:54:03 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:54:03 INFO  time: compiled root in 0.47s[0m
+2023.07.14 15:54:06 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:54:06 INFO  time: compiled root in 69ms[0m
+2023.07.14 15:54:13 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:54:13 INFO  time: compiled root in 0.56s[0m
+2023.07.14 15:54:45 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:54:45 INFO  time: compiled root in 0.47s[0m
+2023.07.14 15:54:47 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:54:47 INFO  time: compiled root in 0.47s[0m
+2023.07.14 15:54:54 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:54:54 INFO  time: compiled root in 0.51s[0m
+2023.07.14 15:56:39 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:56:39 INFO  time: compiled root in 0.74s[0m
+2023.07.14 15:57:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:57:22 WARN  Could not load snapshot text for C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\src\main\scala\tictacsc\Board.scala[0m
+2023.07.14 15:57:22 INFO  time: compiled root in 0.5s[0m
+2023.07.14 15:57:24 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:57:24 INFO  time: compiled root in 0.51s[0m
+2023.07.14 15:57:36 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:57:36 INFO  time: compiled root in 0.47s[0m
+2023.07.14 15:57:38 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:57:38 INFO  time: compiled root in 0.46s[0m
+2023.07.14 15:57:41 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:57:41 INFO  time: compiled root in 0.49s[0m
+2023.07.14 15:57:53 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:57:53 INFO  time: compiled root in 0.51s[0m
+2023.07.14 15:57:54 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:57:54 INFO  time: compiled root in 0.56s[0m
+2023.07.14 15:58:00 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:58:00 INFO  time: compiled root in 0.79s[0m
+2023.07.14 15:58:20 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:58:20 INFO  time: compiled root in 0.49s[0m
+2023.07.14 15:58:33 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:58:33 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:58:33 INFO  time: compiled root in 0.49s[0m
+2023.07.14 15:58:37 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:58:37 WARN  1 deprecation (since 2.13.0)[0m
+2023.07.14 15:58:37 WARN  1 deprecation (since 2.13.3)[0m
+2023.07.14 15:58:37 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+2023.07.14 15:58:37 INFO  time: compiled root in 0.37s[0m
+2023.07.14 15:58:52 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:58:52 INFO  time: compiled root in 36ms[0m
+Jul 14, 2023 3:58:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8045
+2023.07.14 15:59:02 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:59:02 INFO  time: compiled root in 32ms[0m
+Jul 14, 2023 3:59:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8083
+2023.07.14 15:59:06 INFO  compiling root (2 scala sources)[0m
+2023.07.14 15:59:06 INFO  time: compiled root in 32ms[0m
+2023.07.14 15:59:14 INFO  compiling root (2 scala sources)[0m
+2023.07.14 15:59:14 INFO  time: compiled root in 0.54s[0m
+2023.07.14 15:59:14 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:59:14 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 15:59:14 INFO  time: compiled root in 72ms[0m
+2023.07.14 15:59:19 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:59:19 INFO  time: compiled root in 36ms[0m
+2023.07.14 15:59:21 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:59:21 INFO  time: compiled root in 35ms[0m
+2023.07.14 15:59:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:59:22 INFO  time: compiled root in 31ms[0m
+2023.07.14 15:59:24 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:59:24 INFO  time: compiled root in 33ms[0m
+2023.07.14 15:59:26 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:59:26 INFO  time: compiled root in 0.47s[0m
+2023.07.14 15:59:31 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:59:31 INFO  time: compiled root in 29ms[0m
+2023.07.14 15:59:36 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:59:36 INFO  time: compiled root in 31ms[0m
+2023.07.14 15:59:38 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:59:38 INFO  time: compiled root in 0.51s[0m
+2023.07.14 15:59:47 INFO  compiling root (1 scala source)[0m
+2023.07.14 15:59:47 INFO  time: compiled root in 0.48s[0m
+2023.07.14 16:00:07 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:00:07 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 16:00:07 INFO  time: compiled root in 0.38s[0m
+2023.07.14 16:00:10 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:00:10 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 16:00:10 INFO  time: compiled root in 0.37s[0m
+2023.07.14 16:56:58 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:56:58 INFO  time: compiled root in 0.73s[0m
+Jul 14, 2023 4:57:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8459
+2023.07.14 16:57:57 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:57:57 INFO  time: compiled root in 0.42s[0m
+2023.07.14 16:58:02 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:58:02 INFO  time: compiled root in 64ms[0m
+Jul 14, 2023 4:58:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8580
+2023.07.14 16:58:12 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:58:12 INFO  time: compiled root in 63ms[0m
+2023.07.14 16:58:19 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:58:19 INFO  time: compiled root in 32ms[0m
+2023.07.14 16:58:20 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:58:20 INFO  time: compiled root in 0.51s[0m
+2023.07.14 16:58:41 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:58:41 INFO  time: compiled root in 0.54s[0m
+2023.07.14 16:58:47 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:58:47 INFO  time: compiled root in 32ms[0m
+2023.07.14 16:58:49 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:58:49 INFO  time: compiled root in 31ms[0m
+2023.07.14 16:58:51 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:58:51 INFO  time: compiled root in 30ms[0m
+2023.07.14 16:58:56 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:58:56 INFO  time: compiled root in 84ms[0m
+2023.07.14 16:59:01 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:59:01 INFO  time: compiled root in 0.54s[0m
+2023.07.14 16:59:02 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:59:02 INFO  time: compiled root in 0.2s[0m
+2023.07.14 16:59:20 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:59:20 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 16:59:20 INFO  time: compiled root in 0.36s[0m
+2023.07.14 16:59:24 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:59:24 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 16:59:24 INFO  time: compiled root in 0.38s[0m
+2023.07.14 16:59:47 INFO  compiling root (1 scala source)[0m
+2023.07.14 16:59:47 INFO  time: compiled root in 0.79s[0m
+2023.07.14 17:00:13 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:00:13 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:00:13 INFO  time: compiled root in 0.4s[0m
+2023.07.14 17:00:26 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:00:26 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:00:26 INFO  time: compiled root in 0.39s[0m
+2023.07.14 17:00:28 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:00:28 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:00:28 INFO  time: compiled root in 0.36s[0m
+2023.07.14 17:00:30 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:00:30 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:00:30 INFO  time: compiled root in 0.39s[0m
+2023.07.14 17:00:41 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:00:41 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:00:41 INFO  time: compiled root in 0.37s[0m
+2023.07.14 17:00:43 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:00:43 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:00:43 INFO  time: compiled root in 0.36s[0m
+2023.07.14 17:00:46 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:00:46 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:00:46 INFO  time: compiled root in 0.42s[0m
+2023.07.14 17:00:59 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:00:59 INFO  time: compiled root in 76ms[0m
+2023.07.14 17:01:10 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:01:10 INFO  time: compiled root in 69ms[0m
+2023.07.14 17:01:15 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:01:15 INFO  time: compiled root in 78ms[0m
+2023.07.14 17:01:18 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:01:18 INFO  time: compiled root in 73ms[0m
+2023.07.14 17:01:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:01:22 INFO  time: compiled root in 74ms[0m
+2023.07.14 17:01:39 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:01:39 INFO  time: compiled root in 0.55s[0m
+2023.07.14 17:01:46 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:01:46 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:01:46 INFO  time: compiled root in 0.39s[0m
+2023.07.14 17:02:47 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:02:47 INFO  time: compiled root in 72ms[0m
+2023.07.14 17:02:55 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:02:55 INFO  time: compiled root in 70ms[0m
+2023.07.14 17:02:56 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:02:56 INFO  time: compiled root in 71ms[0m
+2023.07.14 17:03:00 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:03:00 INFO  time: compiled root in 70ms[0m
+2023.07.14 17:03:14 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:03:14 INFO  time: compiled root in 70ms[0m
+2023.07.14 17:03:15 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:03:15 INFO  time: compiled root in 70ms[0m
+2023.07.14 17:03:50 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:03:50 INFO  time: compiled root in 67ms[0m
+Jul 14, 2023 5:03:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9942
+2023.07.14 17:03:58 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:03:58 INFO  time: compiled root in 74ms[0m
+2023.07.14 17:04:04 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:04:04 INFO  time: compiled root in 72ms[0m
+2023.07.14 17:04:08 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:04:08 INFO  time: compiled root in 0.51s[0m
+2023.07.14 17:04:18 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:04:18 INFO  time: compiled root in 72ms[0m
+2023.07.14 17:04:20 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:04:20 INFO  time: compiled root in 0.78s[0m
+2023.07.14 17:04:31 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:04:31 INFO  time: compiled root in 0.52s[0m
+2023.07.14 17:04:46 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:04:46 INFO  time: compiled root in 0.55s[0m
+2023.07.14 17:04:49 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:04:49 INFO  time: compiled root in 0.56s[0m
+Jul 14, 2023 5:05:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10156
+2023.07.14 17:05:04 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:05:04 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:05:04 INFO  time: compiled root in 0.38s[0m
+2023.07.14 17:05:06 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:05:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:05:06 INFO  time: compiled root in 0.36s[0m
+Jul 14, 2023 5:11:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10194
+2023.07.14 17:11:27 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:11:27 INFO  time: compiled root in 77ms[0m
+2023.07.14 17:11:58 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:11:58 INFO  time: compiled root in 70ms[0m
+2023.07.14 17:12:02 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:12:02 INFO  time: compiled root in 70ms[0m
+2023.07.14 17:12:15 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:12:15 INFO  time: compiled root in 72ms[0m
+2023.07.14 17:12:23 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:12:23 INFO  time: compiled root in 38ms[0m
+2023.07.14 17:12:27 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:12:27 INFO  time: compiled root in 71ms[0m
+2023.07.14 17:12:30 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:12:30 INFO  time: compiled root in 33ms[0m
+2023.07.14 17:12:38 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:12:38 INFO  time: compiled root in 74ms[0m
+2023.07.14 17:12:44 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:12:44 INFO  time: compiled root in 32ms[0m
+2023.07.14 17:12:46 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:12:46 INFO  time: compiled root in 33ms[0m
+2023.07.14 17:12:48 INFO  compiling root (1 scala source)[0m
+Exception in thread "pool-8-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.14 17:12:48 INFO  time: compiled root in 76ms[0m
+Exception in thread "pool-8-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.14 17:12:56 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:12:56 INFO  time: compiled root in 0.52s[0m
+2023.07.14 17:13:01 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:13:01 INFO  time: compiled root in 0.75s[0m
+2023.07.14 17:13:09 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:13:09 INFO  time: compiled root in 79ms[0m
+2023.07.14 17:13:11 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:13:11 INFO  time: compiled root in 74ms[0m
+2023.07.14 17:13:16 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:13:16 INFO  time: compiled root in 0.53s[0m
+2023.07.14 17:13:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:13:22 INFO  time: compiled root in 69ms[0m
+2023.07.14 17:13:24 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:13:24 INFO  time: compiled root in 0.52s[0m
+2023.07.14 17:13:28 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:13:28 INFO  time: compiled root in 0.53s[0m
+2023.07.14 17:13:33 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:13:33 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:13:33 INFO  time: compiled root in 0.37s[0m
+2023.07.14 17:13:36 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:13:36 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:13:36 INFO  time: compiled root in 0.38s[0m
+2023.07.14 17:13:37 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:13:37 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:13:37 INFO  time: compiled root in 0.39s[0m
+2023.07.14 17:14:03 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:14:03 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:14:03 INFO  time: compiled root in 0.38s[0m
+2023.07.14 17:14:04 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:14:04 WARN  Could not load snapshot text for C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\src\main\scala\tictacsc\Main.scala[0m
+2023.07.14 17:14:04 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:14:04 INFO  time: compiled root in 0.62s[0m
+2023.07.14 17:14:41 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:14:41 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:14:41 INFO  time: compiled root in 0.59s[0m
+2023.07.14 17:14:55 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:14:55 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:14:55 INFO  time: compiled root in 0.35s[0m
+2023.07.14 17:14:57 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:14:57 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:14:57 INFO  time: compiled root in 0.36s[0m
+Jul 14, 2023 5:14:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11217
+2023.07.14 17:14:59 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:14:59 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:14:59 INFO  time: compiled root in 0.37s[0m
+2023.07.14 17:15:02 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:15:02 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:15:02 INFO  time: compiled root in 0.37s[0m
+2023.07.14 17:15:05 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:15:05 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:15:05 INFO  time: compiled root in 0.4s[0m
+2023.07.14 17:15:09 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:15:09 INFO  time: compiled root in 0.26s[0m
+2023.07.14 17:16:05 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:16:05 INFO  time: compiled root in 0.26s[0m
+2023.07.14 17:16:10 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:16:10 INFO  time: compiled root in 30ms[0m
+2023.07.14 17:16:13 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:16:13 INFO  time: compiled root in 0.27s[0m
+2023.07.14 17:16:15 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:16:15 INFO  time: compiled root in 0.27s[0m
+2023.07.14 17:16:17 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:16:17 INFO  time: compiled root in 0.27s[0m
+2023.07.14 17:16:19 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:16:19 INFO  time: compiled root in 0.27s[0m
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 96, 96, 112)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 96, 96, 105)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 96, 96, 106)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 96, 96, 105)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 96, 96, 112)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 96, 96, 105)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 96, 96, 107)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[tictacsc.Player]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 96, 96, 110)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[tictacsc.Player]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 96, 96, 110)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[tictacsc.Player]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 96, 96, 110)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 143, 143, 159)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 143, 143, 152)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[<error>]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 143, 143, 156)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[tictacsc.Player]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 143, 143, 157)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[tictacsc.Player]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 143, 143, 157)
+something's wrong: no file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala in Option[tictacsc.Player]RangePosition(file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala, 143, 143, 157)
+2023.07.14 17:16:45 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:16:45 INFO  time: compiled root in 0.34s[0m
+2023.07.14 17:17:23 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:17:23 INFO  time: compiled root in 0.34s[0m
+2023.07.14 17:17:28 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:17:28 INFO  time: compiled root in 28ms[0m
+2023.07.14 17:17:30 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:17:30 INFO  time: compiled root in 28ms[0m
+2023.07.14 17:17:34 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:17:34 INFO  time: compiled root in 30ms[0m
+Jul 14, 2023 5:17:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Illegal char <:> at index 3: jar:file:///C:/Users/andre/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11-sources.jar!/scala/Option.scala
+java.nio.file.InvalidPathException: Illegal char <:> at index 3: jar:file:///C:/Users/andre/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11-sources.jar!/scala/Option.scala
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.nio.file.Path.of(Path.java:147)
+	at java.base/java.nio.file.Paths.get(Paths.java:69)
+	at scala.meta.io.AbsolutePath$.apply(AbsolutePath.scala:60)
+	at scala.meta.internal.metals.MetalsSymbolSearch.$anonfun$definitionSourceToplevels$2(MetalsSymbolSearch.scala:61)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsSymbolSearch.definitionSourceToplevels(MetalsSymbolSearch.scala:60)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions.scala$meta$internal$pc$completions$MatchCaseCompletions$$sortSubclasses(MatchCaseCompletions.scala:363)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$MatchKeywordCompletion.contribute(MatchCaseCompletions.scala:300)
+	at scala.meta.internal.pc.CompletionProvider.filterInteresting(CompletionProvider.scala:343)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:477)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+2023.07.14 17:18:07 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:18:07 INFO  time: compiled root in 30ms[0m
+2023.07.14 17:18:46 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:18:46 INFO  time: compiled root in 29ms[0m
+2023.07.14 17:18:47 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:18:47 INFO  time: compiled root in 31ms[0m
+2023.07.14 17:19:02 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:19:02 INFO  time: compiled root in 30ms[0m
+2023.07.14 17:19:06 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:19:06 INFO  time: compiled root in 0.49s[0m
+Jul 14, 2023 5:19:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12110
+2023.07.14 17:19:20 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:19:20 INFO  time: compiled root in 0.41s[0m
+2023.07.14 17:19:36 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:19:36 INFO  time: compiled root in 0.36s[0m
+2023.07.14 17:19:38 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:19:38 INFO  time: compiled root in 0.39s[0m
+2023.07.14 17:19:38 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:19:38 INFO  time: compiled root in 49ms[0m
+Jul 14, 2023 5:19:39 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 14, 2023 5:19:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 
+  unexpected tree: class scala.reflect.internal.Trees$Template
+Player
+     while compiling: file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala
+        during phase: globalPhase=<no phase>, enteringPhase=parser
+     library version: version 2.13.11
+    compiler version: version 2.13.11
+  reconstructed args: -classpath C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\.bloop\root\bloop-bsp-clients-classes\classes-Metals-sMBCI4nET9aZg5UVfxNnfw==;C:\Users\andre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\sourcegraph\semanticdb-javac\0.8.15\semanticdb-javac-0.8.15.jar;C:\Users\andre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.11\scala-library-2.13.11.jar -Xplugin-require:semanticdb -Yrangepos -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified -Ypresentation-any-thread
+
+  last tree to typer: Template
+       tree position: line 8 of file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala
+              symbol: <none>
+   symbol definition: <none> (a NoSymbol)
+      symbol package: <none>
+       symbol owners: 
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+     5     var winner: Option[Player] = None
+     6     val board: Board = new Board()
+     7 
+     8     def getCurrentPlayer: Player {
+     9         currentPlayer match {
+    10             case Some(player) =>
+    11                 if (player == player1) currentPlayer = Some(player2)
+scala.reflect.internal.FatalError: 
+  unexpected tree: class scala.reflect.internal.Trees$Template
+Player
+     while compiling: file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala
+        during phase: globalPhase=<no phase>, enteringPhase=parser
+     library version: version 2.13.11
+    compiler version: version 2.13.11
+  reconstructed args: -classpath C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\.bloop\root\bloop-bsp-clients-classes\classes-Metals-sMBCI4nET9aZg5UVfxNnfw==;C:\Users\andre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\sourcegraph\semanticdb-javac\0.8.15\semanticdb-javac-0.8.15.jar;C:\Users\andre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.11\scala-library-2.13.11.jar -Xplugin-require:semanticdb -Yrangepos -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified -Ypresentation-any-thread
+
+  last tree to typer: Template
+       tree position: line 8 of file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala
+              symbol: <none>
+   symbol definition: <none> (a NoSymbol)
+      symbol package: <none>
+       symbol owners: 
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+     5     var winner: Option[Player] = None
+     6     val board: Board = new Board()
+     7 
+     8     def getCurrentPlayer: Player {
+     9         currentPlayer match {
+    10             case Some(player) =>
+    11                 if (player == player1) currentPlayer = Some(player2)
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:69)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:65)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:28)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:6054)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:6071)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6117)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedQualifier(Typers.scala:6215)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:160)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:68)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:16)
+
+Jul 14, 2023 5:19:39 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 14, 2023 5:19:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 
+  unexpected tree: class scala.reflect.internal.Trees$Template
+Player
+     while compiling: file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala
+        during phase: globalPhase=<no phase>, enteringPhase=parser
+     library version: version 2.13.11
+    compiler version: version 2.13.11
+  reconstructed args: -classpath C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\.bloop\root\bloop-bsp-clients-classes\classes-Metals-sMBCI4nET9aZg5UVfxNnfw==;C:\Users\andre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\sourcegraph\semanticdb-javac\0.8.15\semanticdb-javac-0.8.15.jar;C:\Users\andre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.11\scala-library-2.13.11.jar -Xplugin-require:semanticdb -Yrangepos -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified -Ypresentation-any-thread
+
+  last tree to typer: Template
+       tree position: line 8 of file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala
+              symbol: <none>
+   symbol definition: <none> (a NoSymbol)
+      symbol package: <none>
+       symbol owners: 
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+     5     var winner: Option[Player] = None
+     6     val board: Board = new Board()
+     7 
+     8     def getCurrentPlayer: Player {
+     9         currentPlayer match {
+    10             case Some(player) =>
+    11                 if (player == player1) currentPlayer = Some(player2)
+scala.reflect.internal.FatalError: 
+  unexpected tree: class scala.reflect.internal.Trees$Template
+Player
+     while compiling: file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala
+        during phase: globalPhase=<no phase>, enteringPhase=parser
+     library version: version 2.13.11
+    compiler version: version 2.13.11
+  reconstructed args: -classpath C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\.bloop\root\bloop-bsp-clients-classes\classes-Metals-sMBCI4nET9aZg5UVfxNnfw==;C:\Users\andre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\sourcegraph\semanticdb-javac\0.8.15\semanticdb-javac-0.8.15.jar;C:\Users\andre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.11\scala-library-2.13.11.jar -Xplugin-require:semanticdb -Yrangepos -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified -Ypresentation-any-thread
+
+  last tree to typer: Template
+       tree position: line 8 of file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala
+              symbol: <none>
+   symbol definition: <none> (a NoSymbol)
+      symbol package: <none>
+       symbol owners: 
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+     5     var winner: Option[Player] = None
+     6     val board: Board = new Board()
+     7 
+     8     def getCurrentPlayer: Player {
+     9         currentPlayer match {
+    10             case Some(player) =>
+    11                 if (player == player1) currentPlayer = Some(player2)
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:69)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:65)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:28)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:6054)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:6071)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6117)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedQualifier(Typers.scala:6215)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:160)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:68)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:16)
+
+2023.07.14 17:19:40 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:19:40 INFO  time: compiled root in 28ms[0m
+2023.07.14 17:19:45 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:19:45 INFO  time: compiled root in 49ms[0m
+2023.07.14 17:19:51 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:19:51 INFO  time: compiled root in 0.41s[0m
+2023.07.14 17:20:00 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:20:00 INFO  time: compiled root in 29ms[0m
+2023.07.14 17:20:07 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:20:07 INFO  time: compiled root in 0.69s[0m
+2023.07.14 17:20:12 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:20:12 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+2023.07.14 17:20:12 INFO  time: compiled root in 0.36s[0m
+2023.07.14 17:20:14 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:20:14 INFO  time: compiled root in 0.36s[0m
+2023.07.14 17:20:18 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:20:18 INFO  time: compiled root in 29ms[0m
+2023.07.14 17:20:28 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:20:28 INFO  time: compiled root in 43ms[0m
+2023.07.14 17:20:33 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:20:33 INFO  time: compiled root in 0.39s[0m
+2023.07.14 17:20:38 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:20:38 INFO  time: compiled root in 0.37s[0m
+2023.07.14 17:20:40 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:20:40 INFO  time: compiled root in 0.39s[0m
+2023.07.14 17:20:42 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:20:42 INFO  time: compiled root in 0.41s[0m
+2023.07.14 17:20:44 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:20:44 INFO  time: compiled root in 0.4s[0m
+2023.07.14 17:20:51 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:20:51 INFO  time: compiled root in 0.4s[0m
+2023.07.14 17:20:54 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:20:54 INFO  time: compiled root in 0.4s[0m
+2023.07.14 17:21:00 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:21:00 INFO  time: compiled root in 0.38s[0m
+2023.07.14 17:21:05 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:21:05 INFO  time: compiled root in 0.39s[0m
+2023.07.14 17:21:08 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:21:08 INFO  time: compiled root in 0.6s[0m
+2023.07.14 17:21:09 WARN  Could not load snapshot text for C:\Users\andre\OneDrive\Desktop\tic_tac_toe\tic_tac_sc\src\main\scala\tictacsc\Game.scala[0m
+2023.07.14 17:21:09 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:21:09 INFO  time: compiled root in 0.39s[0m
+2023.07.14 17:21:14 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:21:14 INFO  time: compiled root in 40ms[0m
+2023.07.14 17:21:15 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:21:15 INFO  time: compiled root in 0.4s[0m
+2023.07.14 17:21:39 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:21:39 INFO  time: compiled root in 0.39s[0m
+2023.07.14 17:21:41 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:21:41 INFO  time: compiled root in 0.42s[0m
+2023.07.14 17:21:43 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:21:43 INFO  time: compiled root in 0.43s[0m
+2023.07.14 17:21:52 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:21:52 INFO  time: compiled root in 44ms[0m
+2023.07.14 17:21:59 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:21:59 INFO  time: compiled root in 30ms[0m
+2023.07.14 17:22:04 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:22:04 INFO  time: compiled root in 0.42s[0m
+2023.07.14 17:22:06 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:22:06 INFO  time: compiled root in 0.4s[0m
+2023.07.14 17:22:14 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:22:14 INFO  time: compiled root in 37ms[0m
+2023.07.14 17:22:21 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:22:21 INFO  time: compiled root in 0.41s[0m
+2023.07.14 17:22:28 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:22:28 INFO  time: compiled root in 0.4s[0m
+2023.07.14 17:22:34 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:22:34 INFO  time: compiled root in 0.4s[0m
+2023.07.14 17:22:37 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:22:37 INFO  time: compiled root in 0.39s[0m
+2023.07.14 17:22:40 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:22:40 INFO  time: compiled root in 0.67s[0m
+2023.07.14 17:22:43 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:22:43 INFO  time: compiled root in 0.41s[0m
+2023.07.14 17:22:48 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:22:48 INFO  time: compiled root in 0.43s[0m
+2023.07.14 17:22:54 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:22:54 INFO  time: compiled root in 0.4s[0m
+2023.07.14 17:23:10 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:23:10 INFO  time: compiled root in 0.41s[0m
+Jul 14, 2023 5:23:17 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 14, 2023 5:23:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:426)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2023.07.14 17:23:21 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:23:21 INFO  time: compiled root in 0.41s[0m
+2023.07.14 17:23:34 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:23:34 INFO  time: compiled root in 46ms[0m
+2023.07.14 17:23:41 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala:61:21: stale bloop error: type mismatch;
+ found   : Unit
+ required: Throwable => ?
+> {
+>                 
+>             }[0m
+2023.07.14 17:23:41 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala:61:21: stale bloop error: type mismatch;
+ found   : Unit
+ required: Throwable => ?
+> {
+>                 
+>             }[0m
+2023.07.14 17:23:41 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala:61:21: stale bloop error: type mismatch;
+ found   : Unit
+ required: Throwable => ?
+> {
+>                 
+>             }[0m
+2023.07.14 17:23:41 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala:61:21: stale bloop error: type mismatch;
+ found   : Unit
+ required: Throwable => ?
+> {
+>                 
+>             }[0m
+2023.07.14 17:23:41 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala:61:21: stale bloop error: type mismatch;
+ found   : Unit
+ required: Throwable => ?
+> {
+>                 
+>             }[0m
+2023.07.14 17:23:42 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala:61:21: stale bloop error: type mismatch;
+ found   : Unit
+ required: Throwable => ?
+> {
+>                 
+>             }[0m
+2023.07.14 17:23:44 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:23:44 INFO  time: compiled root in 28ms[0m
+2023.07.14 17:23:47 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:23:47 INFO  time: compiled root in 28ms[0m
+2023.07.14 17:23:49 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:23:49 INFO  time: compiled root in 0.42s[0m
+2023.07.14 17:23:52 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:23:52 INFO  time: compiled root in 0.41s[0m
+2023.07.14 17:23:56 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:23:56 INFO  time: compiled root in 0.42s[0m
+2023.07.14 17:23:59 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:23:59 INFO  time: compiled root in 0.68s[0m
+2023.07.14 17:24:07 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:24:07 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:24:07 INFO  time: compiled root in 0.37s[0m
+2023.07.14 17:24:12 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:24:12 INFO  time: compiled root in 0.41s[0m
+2023.07.14 17:24:20 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:24:20 INFO  time: compiled root in 50ms[0m
+2023.07.14 17:24:21 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:24:21 INFO  time: compiled root in 48ms[0m
+2023.07.14 17:24:24 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:24:24 INFO  time: compiled root in 0.46s[0m
+2023.07.14 17:24:56 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:24:56 INFO  time: compiled root in 0.48s[0m
+2023.07.14 17:25:03 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:25:03 INFO  time: compiled root in 0.45s[0m
+2023.07.14 17:25:07 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:25:07 INFO  time: compiled root in 47ms[0m
+2023.07.14 17:25:52 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:25:52 INFO  time: compiled root in 44ms[0m
+2023.07.14 17:25:58 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:25:58 INFO  time: compiled root in 50ms[0m
+2023.07.14 17:26:00 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:26:00 INFO  time: compiled root in 46ms[0m
+2023.07.14 17:26:03 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:26:03 INFO  time: compiled root in 46ms[0m
+2023.07.14 17:26:04 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:26:04 INFO  time: compiled root in 45ms[0m
+2023.07.14 17:26:46 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:26:46 INFO  time: compiled root in 0.5s[0m
+2023.07.14 17:26:48 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:26:48 INFO  time: compiled root in 0.44s[0m
+2023.07.14 17:26:50 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:26:50 INFO  time: compiled root in 0.48s[0m
+2023.07.14 17:26:57 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:26:57 INFO  time: compiled root in 0.45s[0m
+2023.07.14 17:27:19 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:27:19 INFO  time: compiled root in 50ms[0m
+2023.07.14 17:27:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:27:22 INFO  time: compiled root in 49ms[0m
+2023.07.14 17:27:23 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:27:23 INFO  time: compiled root in 0.72s[0m
+2023.07.14 17:27:31 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:27:31 INFO  time: compiled root in 48ms[0m
+Jul 14, 2023 5:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala:57: error: file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala:57: error: expected identifier; obtained def
+    def makeMove: Unit = {
+    ^
+    def makeMove: Unit = {
+    ^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:638)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.methodIdentifier(ScalaToplevelMtags.scala:605)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitTerm(ScalaToplevelMtags.scala:493)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.$anonfun$loop$10(ScalaToplevelMtags.scala:225)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.mtags.MtagsIndexer.withOwner(MtagsIndexer.scala:48)
+	at scala.meta.internal.mtags.MtagsIndexer.withOwner$(MtagsIndexer.scala:45)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.withOwner(ScalaToplevelMtags.scala:41)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:225)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:53)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:41)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:100)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:291)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:291)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:286)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definitionOrReferences$1(MetalsLspService.scala:2693)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLspService.definitionOrReferences(MetalsLspService.scala:2689)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definition$1(MetalsLspService.scala:1526)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.definition(MetalsLspService.scala:1525)
+	at scala.meta.metals.lsp.DelegatingScalaService.definition(DelegatingScalaService.scala:69)
+	... 15 more
+
+Jul 14, 2023 5:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala:57: error: file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala:57: error: expected identifier; obtained def
+    def makeMove: Unit = {
+    ^
+    def makeMove: Unit = {
+    ^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:638)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.methodIdentifier(ScalaToplevelMtags.scala:605)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitTerm(ScalaToplevelMtags.scala:493)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.$anonfun$loop$10(ScalaToplevelMtags.scala:225)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.mtags.MtagsIndexer.withOwner(MtagsIndexer.scala:48)
+	at scala.meta.internal.mtags.MtagsIndexer.withOwner$(MtagsIndexer.scala:45)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.withOwner(ScalaToplevelMtags.scala:41)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:225)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:53)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:41)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:100)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:291)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:291)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:286)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definitionOrReferences$1(MetalsLspService.scala:2693)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLspService.definitionOrReferences(MetalsLspService.scala:2689)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definition$1(MetalsLspService.scala:1526)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.definition(MetalsLspService.scala:1525)
+	at scala.meta.metals.lsp.DelegatingScalaService.definition(DelegatingScalaService.scala:69)
+	... 15 more
+
+2023.07.14 17:27:31 INFO  compiling root (1 scala source)[0m
+Jul 14, 2023 5:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14494
+2023.07.14 17:27:31 INFO  time: compiled root in 14ms[0m
+2023.07.14 17:27:31 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:27:31 INFO  time: compiled root in 15ms[0m
+2023.07.14 17:27:31 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:27:31 INFO  time: compiled root in 14ms[0m
+Jul 14, 2023 5:27:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala:57: error: file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Game.scala:57: error: expected identifier; obtained def
+    def makeMove: Unit = {
+    ^
+    def makeMove: Unit = {
+    ^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:638)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.methodIdentifier(ScalaToplevelMtags.scala:605)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitTerm(ScalaToplevelMtags.scala:493)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.$anonfun$loop$10(ScalaToplevelMtags.scala:225)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.mtags.MtagsIndexer.withOwner(MtagsIndexer.scala:48)
+	at scala.meta.internal.mtags.MtagsIndexer.withOwner$(MtagsIndexer.scala:45)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.withOwner(ScalaToplevelMtags.scala:41)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:225)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:53)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:41)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:100)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:291)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:291)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:286)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definitionOrReferences$1(MetalsLspService.scala:2693)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLspService.definitionOrReferences(MetalsLspService.scala:2689)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definition$1(MetalsLspService.scala:1526)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.definition(MetalsLspService.scala:1525)
+	at scala.meta.metals.lsp.DelegatingScalaService.definition(DelegatingScalaService.scala:69)
+	... 15 more
+
+2023.07.14 17:27:34 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:27:34 INFO  time: compiled root in 59ms[0m
+2023.07.14 17:27:36 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:27:36 INFO  time: compiled root in 50ms[0m
+2023.07.14 17:27:38 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:27:38 INFO  time: compiled root in 55ms[0m
+2023.07.14 17:27:44 WARN  Using indexes to guess the definition of tryMakeMove[0m
+Jul 14, 2023 5:27:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14562
+2023.07.14 17:27:45 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:27:45 INFO  time: compiled root in 63ms[0m
+2023.07.14 17:27:48 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:27:48 INFO  time: compiled root in 28ms[0m
+2023.07.14 17:28:07 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:28:07 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:28:07 INFO  time: compiled root in 0.37s[0m
+Jul 14, 2023 5:28:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14739
+2023.07.14 17:28:17 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:28:17 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:28:17 INFO  time: compiled root in 0.37s[0m
+2023.07.14 17:28:21 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:28:21 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:28:21 INFO  time: compiled root in 0.38s[0m
+2023.07.14 17:28:25 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:28:25 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:28:25 INFO  time: compiled root in 0.39s[0m
+2023.07.14 17:28:31 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:28:31 INFO  time: compiled root in 39ms[0m
+2023.07.14 17:28:51 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:28:51 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:28:51 INFO  time: compiled root in 0.39s[0m
+2023.07.14 17:29:06 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:29:06 INFO  time: compiled root in 51ms[0m
+Jul 14, 2023 5:29:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15052
+2023.07.14 17:29:19 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:29:19 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+2023.07.14 17:29:19 INFO  time: compiled root in 0.47s[0m
+2023.07.14 17:29:35 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:29:35 INFO  time: compiled root in 40ms[0m
+2023.07.14 17:29:39 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:29:39 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:29:39 INFO  time: compiled root in 0.45s[0m
+2023.07.14 17:29:45 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:29:45 INFO  time: compiled root in 54ms[0m
+2023.07.14 17:29:51 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:29:51 INFO  time: compiled root in 44ms[0m
+2023.07.14 17:29:54 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:29:54 INFO  time: compiled root in 54ms[0m
+2023.07.14 17:29:59 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:29:59 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:29:59 INFO  time: compiled root in 0.62s[0m
+2023.07.14 17:30:10 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:30:10 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala:33:19: stale bloop error: unclosed string literal
+        println(s"Here's the updated board. Round $")
+                  ^[0m
+2023.07.14 17:30:10 INFO  time: compiled root in 36ms[0m
+2023.07.14 17:30:10 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala:33:19: stale bloop error: unclosed string literal
+        println(s"Here's the updated board. Round $")
+                  ^[0m
+2023.07.14 17:30:10 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala:33:19: stale bloop error: unclosed string literal
+        println(s"Here's the updated board. Round $")
+                  ^[0m
+2023.07.14 17:30:10 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala:33:19: stale bloop error: unclosed string literal
+        println(s"Here's the updated board. Round $")
+                  ^[0m
+2023.07.14 17:30:10 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala:33:19: stale bloop error: unclosed string literal
+        println(s"Here's the updated board. Round $")
+                  ^[0m
+2023.07.14 17:30:10 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala:33:19: stale bloop error: unclosed string literal
+        println(s"Here's the updated board. Round $")
+                  ^[0m
+2023.07.14 17:30:10 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala:33:19: stale bloop error: unclosed string literal
+        println(s"Here's the updated board. Round $")
+                  ^[0m
+2023.07.14 17:30:10 INFO  file:///C:/Users/andre/OneDrive/Desktop/tic_tac_toe/tic_tac_sc/src/main/scala/tictacsc/Main.scala:33:19: stale bloop error: unclosed string literal
+        println(s"Here's the updated board. Round $")
+                  ^[0m
+2023.07.14 17:30:11 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:30:11 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:30:11 INFO  time: compiled root in 0.38s[0m
+2023.07.14 17:30:21 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:30:21 WARN  1 deprecation (since 2.13.0)[0m
+2023.07.14 17:30:21 WARN  1 deprecation (since 2.13.3)[0m
+2023.07.14 17:30:21 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+2023.07.14 17:30:21 INFO  time: compiled root in 0.43s[0m
+2023.07.14 17:30:25 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:30:25 WARN  1 deprecation (since 2.11.0)[0m
+2023.07.14 17:30:25 WARN  1 deprecation (since 2.13.0)[0m
+2023.07.14 17:30:25 WARN  1 deprecation (since 2.13.3)[0m
+2023.07.14 17:30:25 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+2023.07.14 17:30:25 INFO  time: compiled root in 0.41s[0m
+2023.07.14 17:30:27 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:30:27 WARN  1 deprecation (since 2.13.0)[0m
+2023.07.14 17:30:27 WARN  1 deprecation (since 2.13.3)[0m
+2023.07.14 17:30:27 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+2023.07.14 17:30:27 INFO  time: compiled root in 0.11s[0m
+2023.07.14 17:30:29 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:30:29 WARN  1 deprecation (since 2.13.0)[0m
+2023.07.14 17:30:29 WARN  1 deprecation (since 2.13.3)[0m
+2023.07.14 17:30:29 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+2023.07.14 17:30:29 INFO  time: compiled root in 0.41s[0m
+2023.07.14 17:30:35 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:30:35 WARN  1 deprecation (since 2.13.0)[0m
+2023.07.14 17:30:35 WARN  1 deprecation (since 2.13.3)[0m
+2023.07.14 17:30:35 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+2023.07.14 17:30:35 INFO  time: compiled root in 0.4s[0m
+2023.07.14 17:30:38 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:30:38 WARN  1 deprecation (since 2.13.0)[0m
+2023.07.14 17:30:38 WARN  1 deprecation (since 2.13.3)[0m
+2023.07.14 17:30:38 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+2023.07.14 17:30:38 INFO  time: compiled root in 0.41s[0m
+2023.07.14 17:31:22 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:31:22 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+2023.07.14 17:31:22 INFO  time: compiled root in 0.67s[0m
+2023.07.14 17:31:59 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:31:59 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+2023.07.14 17:31:59 INFO  time: compiled root in 0.46s[0m
+2023.07.14 17:32:00 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:32:00 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+2023.07.14 17:32:00 INFO  time: compiled root in 0.45s[0m
+2023.07.14 17:32:02 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:32:02 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+2023.07.14 17:32:02 INFO  time: compiled root in 0.47s[0m
+2023.07.14 17:32:28 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:32:28 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+2023.07.14 17:32:28 INFO  time: compiled root in 0.45s[0m
+2023.07.14 17:32:42 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:32:42 INFO  time: compiled root in 0.47s[0m
+2023.07.14 17:32:42 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:32:42 WARN  1 deprecation (since 2.13.0)[0m
+2023.07.14 17:32:42 WARN  2 deprecations (since 2.13.3)[0m
+2023.07.14 17:32:42 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+2023.07.14 17:32:42 INFO  time: compiled root in 0.11s[0m
+2023.07.14 17:32:44 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:32:44 INFO  time: compiled root in 0.45s[0m
+2023.07.14 17:32:49 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:32:49 INFO  time: compiled root in 0.45s[0m
+2023.07.14 17:32:49 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:32:49 WARN  1 deprecation (since 2.13.0)[0m
+2023.07.14 17:32:49 WARN  1 deprecation (since 2.13.3)[0m
+2023.07.14 17:32:49 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+2023.07.14 17:32:49 INFO  time: compiled root in 97ms[0m
+2023.07.14 17:33:21 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:33:21 INFO  time: compiled root in 0.72s[0m
+2023.07.14 17:33:25 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:33:25 INFO  time: compiled root in 0.46s[0m
+2023.07.14 17:33:30 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:33:30 INFO  time: compiled root in 0.46s[0m
+2023.07.14 17:33:49 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:33:49 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.07.14 17:33:49 INFO  time: compiled root in 0.39s[0m
+2023.07.14 17:33:51 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:33:51 WARN  1 deprecation (since 2.13.0)[0m
+2023.07.14 17:33:51 WARN  1 deprecation (since 2.13.3)[0m
+2023.07.14 17:33:51 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+2023.07.14 17:33:51 INFO  time: compiled root in 0.44s[0m
+2023.07.14 17:33:54 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:33:54 WARN  1 deprecation (since 2.13.0)[0m
+2023.07.14 17:33:54 WARN  1 deprecation (since 2.13.3)[0m
+2023.07.14 17:33:54 WARN  2 deprecations in total; re-run with -deprecation for details[0m
+2023.07.14 17:33:54 INFO  time: compiled root in 0.45s[0m
+2023.07.14 17:34:47 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:34:47 INFO  time: compiled root in 0.47s[0m
+2023.07.14 17:34:59 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:34:59 INFO  time: compiled root in 0.67s[0m
+2023.07.14 17:35:00 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:35:00 INFO  time: compiled root in 0.12s[0m
+2023.07.14 17:35:02 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:35:02 INFO  time: compiled root in 0.43s[0m
+2023.07.14 17:35:06 INFO  compiling root (1 scala source)[0m
+2023.07.14 17:35:06 INFO  time: compiled root in 0.47s[0m
+2023.07.14 17:35:51 INFO  Shutting down server[0m
+2023.07.14 17:35:51 INFO  shutting down Metals[0m
+2023.07.14 17:35:51 INFO  Shut down connection with build server.[0m
+2023.07.14 17:35:51 INFO  Shut down connection with build server.[0m
+2023.07.14 17:35:51 INFO  Exiting server[0m
