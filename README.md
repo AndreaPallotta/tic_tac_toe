@@ -11,6 +11,7 @@ Tic Tac Toe written in different languages:
 - F#
 - Go
 - Haxe
+- Io
 - Java
 - Julia
 - Kotlin
