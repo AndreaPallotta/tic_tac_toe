@@ -15,7 +15,9 @@ Tic Tac Toe written in different languages:
 - Java
 - Julia
 - Kotlin
+- Lua
 - NodeJS
+- Objective 
 - PHP
 - Python
 - Ruby
