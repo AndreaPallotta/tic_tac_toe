@@ -10,6 +10,7 @@ Tic Tac Toe written in different languages:
 - Elixir
 - F#
 - Go
+- Groovy
 - Haxe
 - Io
 - Java
