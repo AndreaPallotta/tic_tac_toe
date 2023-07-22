@@ -23,3 +23,4 @@ Tic Tac Toe written in different languages:
 - Ruby
 - Rust
 - Scala
+- Zig
