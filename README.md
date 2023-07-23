@@ -6,6 +6,7 @@ Tic Tac Toe written in different languages:
 - C#
 - C++
 - Crystal
+- Deno
 - Dart
 - Elixir
 - F#
